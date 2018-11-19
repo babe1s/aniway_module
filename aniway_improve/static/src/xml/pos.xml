@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates id="template" xml:space="preserve">
+
+    <t t-extend="ProductCategoriesWidget">
+        <t t-jquery="input" t-operation='before'>
+            <button>Marque</button>
+        </t>
+    </t>
+
+     <t t-extend="Product">
+        <t t-jquery="div[class='product-img']" t-operation='after'>
+            <div>
+                <span class="price-tag">
+                    <t t-esc="product.x_brand"/>
+                </span>
+            </div>
+        </t>
+    </t>
+</templates>

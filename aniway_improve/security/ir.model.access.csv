@@ -1,0 +1,2 @@
+id,name,model_id:id,group_id:id,perm_read,perm_write,perm_create,perm_unlink
+access_aniway_improve_aniway_improve,aniway_improve.aniway_improve,model_aniway_improve_aniway_improve,,1,0,0,0

@@ -1,0 +1,17 @@
+<odoo>
+    <data>
+        <record id="x_product_brand" model="ir.model.fields">
+            <field name="name">x_brand</field>
+            <field name="field_description">Marque</field>
+            <field name="model_id" ref="product.model_product_template"/>
+            <field name="ttype">char</field>
+        </record>
+        <record id="x_product_supplier" model="ir.model.fields">
+            <field name="name">x_supplier</field>
+            <field name="field_description">Fournisseur</field>
+            <field name="model_id" ref="product.model_product_template"/>
+            <field name="ttype">many2one</field>
+            <field name="relation">res.partner</field>
+        </record>
+    </data>
+</odoo>
